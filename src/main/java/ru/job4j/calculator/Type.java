@@ -19,6 +19,7 @@ public class Type {
         System.out.println("float = " + (float) c);
         System.out.println();
         double d = 121.19;
+
         byte b1 = (byte) d;
         System.out.println("double = " + d);
         System.out.println("byte = " + b1);
