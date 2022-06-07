@@ -16,7 +16,7 @@ public class Type {
         System.out.println();
         char c = 45000;
         System.out.println("char = " + c);
-        System.out.println("‘ÎÓ‡Ú = " + (float) c);
+        System.out.println("–§–ª–æ–∞—Ç = " + (float) c);
         System.out.println();
         double d = 121.19;
 
