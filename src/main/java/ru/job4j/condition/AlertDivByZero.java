@@ -11,7 +11,7 @@ public class AlertDivByZero {
             System.out.println("Число 0 делить нельзя.");
         }
         if (number < 0) {
-            System.out.println("Это отрицательное число.");
+            System.out.println("Это  отрицательное число.");
         }
     }
 }
