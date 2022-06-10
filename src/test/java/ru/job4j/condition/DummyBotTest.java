@@ -28,4 +28,12 @@ public class DummyBotTest {
         String expected = "Это ставит меня в тупик. Задайте другой вопрос.";
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenNameBot() {
+        String in = "Как тебя зовут?";
+        String result = DummyBot.answer(in);
+        String expected = "Я тупой Бот.";
+        Assert.assertEquals(expected, result);
+    }
 }
