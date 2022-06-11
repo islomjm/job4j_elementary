@@ -4,12 +4,12 @@ public class Type {
     public static void main(String[] args) {
         long l = 129;
         byte b = (byte) l;
+
         System.out.println("long = " + l);
         System.out.println("byte = " + b);
         System.out.println();
         float f = 12358.7f;
         int i = 45981;
-
         short rsl = (short) (f + i);
         System.out.println("float = " + f);
         System.out.println("int = " + i);
