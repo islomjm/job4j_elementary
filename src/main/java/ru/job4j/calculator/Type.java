@@ -9,7 +9,7 @@ public class Type {
         System.out.println();
         float f = 12358.7f;
         int i = 45981;
-         short rsl = (short) (f + i);
+        short rsl = (short) (f + i);
         System.out.println("float = " + f);
         System.out.println("int = " + i);
         System.out.println("short = " + rsl);
