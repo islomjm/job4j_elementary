@@ -1,7 +1,5 @@
 package ru.job4j.arrey;
 
-//import java.util.Arrays;
-
 public class Turn {
     public static int[] back(int[] array) {
         for (int index = 0; index < array.length / 2; index++) {
@@ -11,12 +9,6 @@ public class Turn {
 
         }
         return array;
-
         }
-
-//    public static void main(String[] args) {
-//        int[] array = {1, 2, 3, 4, 5, 6};
-//        System.out.println(Arrays.toString(back(array)));
-//    }
 
 }
