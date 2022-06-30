@@ -10,8 +10,4 @@ public class Min {
         }
         return min;
     }
-
-    public static void main(String[] args) {
-
-    }
 }
