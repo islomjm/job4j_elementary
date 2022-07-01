@@ -1,6 +1,6 @@
-package ru.job4j.arrey;
+package ru.job4j.array;
 
-public class AgoArray {
+public class AlgoArray {
     public static void main(String[] args) {
         int[] array = new int[] {5, 3, 2, 1, 4};
         int temp = array[0];
@@ -13,8 +13,8 @@ public class AgoArray {
         array[3] = array[4];
         array[4] = temp;
 
-        for (int index = 0; index < array.length; index++) {
-            System.out.println(array[index]);
+        for (int i : array) {
+            System.out.println(i);
         }
     }
 }

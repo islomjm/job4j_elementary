@@ -1,4 +1,4 @@
-package ru.job4j.arrey;
+package ru.job4j.array;
 
 public class RollBackArray {
     public static int[] rollback(int[] array) {
