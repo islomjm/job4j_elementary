@@ -25,7 +25,6 @@ public class Type {
         System.out.println();
         short s = 1500;
         char c1 = (char) s;
-
         System.out.println("short = " + s);
         System.out.println("char = " + c1);
         System.out.println("double = " + (double) c1);
