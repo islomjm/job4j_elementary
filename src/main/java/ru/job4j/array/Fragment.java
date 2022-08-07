@@ -1,6 +1,6 @@
 package ru.job4j.array;
 
-public class Defragment {
+public class Fragment {
     public static String[] compress(String[] array) {
         for (int index = 0; index < array.length; index++) {
           if (array[index] == null) {
@@ -17,11 +17,11 @@ public class Defragment {
     }
 
     public static void main(String[] args) {
-        String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
+        String[] input = {"I ", null, " wanna ", null, " be ", null, " compressed"};
         String[] compressed = compress(input);
         System.out.println();
-        for (int index = 0; index < compressed.length; index++) {
-            System.out.print(compressed[index] + "");
+        for (String s : compressed) {
+            System.out.print(s + "");
         }
     }
 }
